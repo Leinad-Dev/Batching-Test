@@ -15,22 +15,22 @@ I noticed:
 Dynamic batching = 300 verts per batch.
 CombineMesh = 65,536 verts per batch. (16 bit index buffer)
 
-No Batching
+#No Batching#
 Batches: 8615 (~265 fps) [~4.1ms]
 Tris: 880.4k
 Verts: 1.7M
 
-Static batching
+#Static batching#
 Batches: 1476 (~220 fps) [~4.6ms]
 Tris: 880.4k
 Verts: 1.7M
 
-Dynamic Batching
+#Dynamic Batching#
 Batches: 233 (~198 fps) [~5.1ms]
 Tris: 880.4k
 Verts: 1.7M
 
-CombineMesh
+#CombineMesh#
 Batches: 64 (~350 fps) [~2.8ms]
 Tris: 1.6M
 Verts: 3.1M
