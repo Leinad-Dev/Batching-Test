@@ -1,4 +1,4 @@
-## Optimization of drawcalls when batching over 8000 house meshes
+## Optimization of drawcalls when batching over 8000 house meshes (Unity game engine)
 **Draw call:** each group of triangles drawn with the same material and texture properties<br />
  <br />
 Max vert count per mesh depends on index buffer size. (Unity defaults to 16-bit)<br />
