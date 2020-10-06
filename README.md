@@ -7,6 +7,7 @@ Max vert count per mesh depends on index buffer size. (Unity defaults to 16-bit)
 
 **Dynamic batching** = 300 verts per batch.<br />
 **CombineMesh** = 65,536 verts per batch. (16 bit index buffer)<br />
+<br />
 ![](images/house_batching.png)
 
 
