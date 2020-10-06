@@ -11,22 +11,22 @@ Max vert count per mesh depends on index buffer size. (Unity defaults to 16-bit)
 ![](images/house_batching.png)
 
 
-# Dynamic Batching
+# <ins>Dynamic Batching</ins>
 * Batches: 233 (~198 fps) [~5.1ms]
 * Tris: 880.4k
 * Verts: 1.7M
 
-# Static batching
+# <ins>Static batching</ins>
 * Batches: 1476 (~220 fps) [~4.6ms]
 * Tris: 880.4k
 * Verts: 1.7M
 
-# No Batching
+# <ins>No Batching</ins>
 * Batches: 8615 (~265 fps) [~4.1ms]
 * Tris: 880.4k
 * Verts: 1.7M
 
-# CombineMesh
+# <ins>CombineMesh</ins>
 * Batches: 64 (~350 fps) [~2.8ms]
 * Tris: 1.6M
 * Verts: 3.1M
