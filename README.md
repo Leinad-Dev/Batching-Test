@@ -1,10 +1,11 @@
-Draw call: each group of triangles drawn with the same material and texture properties<br />
+**Draw call:** each group of triangles drawn with the same material and texture properties<br />
+ <br />
 Max vert count per mesh depends on index buffer size. (Unity defaults to 16-bit)<br />
 16-bit index buffer supports up to 65,535 vertices
 32-bit index buffer supports up to 4 billion vertices<br />
 
-Dynamic batching = 300 verts per batch.
-CombineMesh = 65,536 verts per batch. (16 bit index buffer)
+**Dynamic batching** = 300 verts per batch.<br />
+**CombineMesh** = 65,536 verts per batch. (16 bit index buffer)
 
 # Dynamic Batching
 * Batches: 233 (~198 fps) [~5.1ms]
