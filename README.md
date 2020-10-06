@@ -1,6 +1,4 @@
 ## Optimization of drawcalls when batching over 8000 house meshes
-
-![](images/house_batching.png)
 **Draw call:** each group of triangles drawn with the same material and texture properties<br />
  <br />
 Max vert count per mesh depends on index buffer size. (Unity defaults to 16-bit)<br />
@@ -9,6 +7,8 @@ Max vert count per mesh depends on index buffer size. (Unity defaults to 16-bit)
 
 **Dynamic batching** = 300 verts per batch.<br />
 **CombineMesh** = 65,536 verts per batch. (16 bit index buffer)
+![](images/house_batching.png)
+
 
 # Dynamic Batching
 * Batches: 233 (~198 fps) [~5.1ms]
